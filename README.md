@@ -1,4 +1,4 @@
-# The Bro, Don't Tool Suite 🧹
+# The Bro, Don't Tool Suite
 
 ![Bro, Don't](./banner.png)
 
@@ -159,7 +159,7 @@ node /path/to/bro-dont/no-comment/noComment.js path/to/your/file.js
 
 Because honestly? You shouldn’t be paying a language model to delete emojis it added in the first place - you're feeding the monster, bro.
 
-### ⚡ Speed
+### Speed
 
 - **Traditional**: API calls + waiting → 5-15 seconds per file
 - **Bro Don't**: Local execution → <1 second per file
