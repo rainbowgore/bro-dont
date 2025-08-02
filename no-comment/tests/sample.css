@@ -1,0 +1,52 @@
+/* 
+ * Main stylesheet for the website
+ * Contains all styling rules
+ */
+
+/* Reset and base styles */
+* {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif; /* Main font */
+  line-height: 1.6; /* Improve readability */
+  color: #333; /* Dark gray text */
+}
+
+/* Container for main content */
+.container {
+  max-width: 1200px; /* Maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Internal spacing */
+}
+
+/* Header styles */
+header {
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 1rem; /* Padding around header */
+  /* border-bottom: 1px solid #ddd; Uncommented border */
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Horizontal layout */
+}
+
+nav li {
+  margin-right: 20px; /* Space between items */
+}
+
+/* 
+ * Footer styles
+ * Positioned at bottom
+ */
+footer {
+  margin-top: 2rem; /* Top margin */
+  text-align: center; /* Center text */
+  color: #666; /* Gray text */
+}
